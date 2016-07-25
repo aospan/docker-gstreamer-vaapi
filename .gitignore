@@ -1,0 +1,3 @@
+opt/gstreamer-build*
+opt/gstreamer-dist*
+opt/*-out.ts
