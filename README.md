@@ -11,7 +11,13 @@ projects compiled from git repositories using 'master' branch (should be latest 
 ## Run container
 `make run`
 
-After starting container you can run test MPEG2 to H264 transcoding with resize. On my NUC (i5-4250U) it takes 6 seconds to transcode file with about 100 sec length.
+After starting container you will see something like this:
+`root@dbbc5ddfc092:/#`
+
+Now you can run test MPEG2 to H264 transcoding using following command:
+`/opt/transode-file.sh`
+
+On my NUC (i5-4250U) it takes 6 seconds to transcode file with about 100 sec length.
 
 Input file is `/opt/moscow24.ts`:
 ```
