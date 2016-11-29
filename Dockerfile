@@ -11,3 +11,8 @@ RUN apt-get install -y autoconf automake bison flex autopoint libtool \
         nginx libssl-dev
 
 RUN apt-get install -y libopencv-dev opencv-data software-properties-common python-software-properties
+
+COPY opt /opt/
+COPY html /var/www/html
+
+RUN /opt/build-gstreamer-vaapi.sh
