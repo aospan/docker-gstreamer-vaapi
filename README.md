@@ -30,3 +30,5 @@ Output file is `/opt/moscow24-out.ts`:
  Stream #0:0[0x41](ru): Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp, 150 kb/s
  Stream #0:1[0x42]: Video: h264 (Constrained Baseline) (HDMV / 0x564D4448), yuv420p, 320x240 [SAR 1:1 DAR 4:3], 50 fps, 50 tbr, 90k tbn, 100 tbc
 ```
+For more info please check this article:
+https://jokersys.com/2016/12/02/video-decode-encode-intel-gpu-intel-quick-sync-joker/
